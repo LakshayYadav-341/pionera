@@ -1,13 +1,8 @@
-function App() {
-  var map = L.map('map', {
-    center: [51.505, -0.09],
-    zoom: 13
-});
-  return (
-    <div className="App">
-
-    </div>
-  );
-}
+import React from 'react';
+import PathFindingVisualizer from './PathFindingVisualizer/PathFindingVisualizer';
+const App = () =>
+  <div className="App">
+    <PathFindingVisualizer />
+  </div>
 
 export default App;
